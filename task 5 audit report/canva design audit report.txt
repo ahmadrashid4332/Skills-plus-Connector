@@ -1,0 +1,28 @@
+
+### **Safety Assessment Report: "Canvas-Design" AI Skill**
+
+---
+
+**1. What the Skill Does**
+This Skill transforms the AI into a meticulous, high-end graphic designer. Its primary purpose is to create original, professional-grade visual art (like posters or abstract designs) while strictly avoiding copyright violations.
+
+It works in a deliberate, step-by-step manner:
+
+* **Thinks Before It Draws:** It first writes out a "design philosophy" or artistic manifesto to decide how to use space, colors, and shapes.
+* **Hides Subtle Meanings:** Instead of taking prompts too literally, it weaves the user's ideas into the art conceptually, much like abstract art in a museum.
+* **Focuses on Quality:** It forces the AI to double-check its own work, acting as if the final piece needs to be a pristine, museum-quality masterpiece rather than a quick, lazy sketch.
+
+**2. What the Skill Touches (System & Data Access)**
+This Skill is very contained and operates almost entirely on the surface level of file creation.
+
+* **Files Created:** It generates standard, safe file formats: Markdown documents for text (`.md`), and standard image files for the art (`.png` and `.pdf`).
+* **Local Access:** It is instructed to look inside a specific local folder (`./canvas-fonts`) to find typography to use in its designs.
+* **External Access:** It has a general instruction to "download" fonts if it needs them. Depending on where this Skill is running, it might try to reach out to the internet to fetch a font file.
+* **Data Privacy:** It **does not** handle credentials, ask for passwords, process personal user data, or send information to unexpected external servers or databases.
+
+**3. Trust & Safety Verdict**
+**Verdict: Safe and Trustworthy.**
+
+I would fully trust enabling this Skill. It is not a malicious program; it is essentially just a very strict set of behavioral instructions (a "system prompt") designed to make the AI produce better, more thoughtful art.
+
+The only minor technical flag is its instruction to download fonts. However, as long as this Skill is running within a standard, secure AI environment (which naturally blocks unauthorized downloads or harmful file access), this poses zero risk. It is a creative tool focused entirely on artistic aesthetics and safe file generation.

@@ -1,0 +1,14 @@
+# Task 4: Portable Handoff
+
+## 📌 Handoff Method: Account Transfer
+To verify the portability of the "Autonomous Career Agent" skill, I transferred the entire system prompt and configuration from my primary account to my **second account**. The goal was to ensure that the skill is not hardcoded to a specific environment and can work seamlessly for any user or on any different account.
+
+## ⚙️ Testing & Verification
+1. **Setup:** I created a new Project/Skill in my second account and pasted the exact same System Instructions (Prompt) developed in Task 1.
+2. **Execution:** I uploaded a resume to the newly created skill on the second account without giving any additional text prompts.
+3. **Result:** The portability was a **100% success**. The skill auto-triggered exactly as intended, performed Phase 1 (Resume Audit), and smoothly transitioned into asking for job preferences to initiate the Indeed search.
+
+## 📸 Proof of Portability
+*(Note: Please refer to the attached screenshots in this folder)*
+* **Screenshot 1,2:** Shows the skill's setup and successful auto-trigger on the secondary account.
+* **Screenshot 3:** Confirmation of the prompt working perfectly in a completely new environment, proving the skill is fully portable and ready to be handed off to any other user.
